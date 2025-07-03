@@ -3,7 +3,7 @@
 #include <brvLib/vehicle.hpp>
 
 int main(){
-  Vehicle vehicle(readFile("/home/qwas/.steam/steam/steamapps/compatdata/3727596434/pfx/drive_c/users/steamuser/AppData/Local/BrickRigs/SavedRemastered/Vehicles/2/Vehicle.brv"));
+  Vehicle vehicle(readFile(Vehicle.brv"));
 
   float k = 0.5;
 
