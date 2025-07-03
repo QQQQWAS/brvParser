@@ -3,7 +3,7 @@
 #include <brvLib/vehicle.hpp>
 
 int main(){
-  Vehicle vehicle(readFile(Vehicle.brv"));
+  Vehicle vehicle(readFile("Vehicle.brv"));
 
   float k = 0.5;
 
