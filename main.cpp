@@ -67,5 +67,5 @@ int main(){
     *sxw *= k;
   }
 
-  vehicle.exportToFile("/home/qwas/.steam/steam/steamapps/compatdata/3727596434/pfx/drive_c/users/steamuser/AppData/Local/BrickRigs/SavedRemastered/Vehicles/2/Vehicle.brv");
+  vehicle.exportToFile("Vehicle.brv");
 }
